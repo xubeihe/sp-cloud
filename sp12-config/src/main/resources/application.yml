@@ -11,11 +11,11 @@ spring:
         native:
           search-locations: classpath:/config
 
-        #        git:
-        #          uri: https://github.com/你的用户路径/sp-config
-        #          searchPaths: config
-        #          username: your-username
-        #          password: your-password
+                git:
+                  uri: https://github.com/xubeihe/sp-cloud.git
+                  searchPaths: config
+                  username: your-username
+                  password: your-password
 
 
   rabbitmq:
